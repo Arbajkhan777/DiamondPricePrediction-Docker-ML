@@ -5,8 +5,8 @@ import sys
 from src.DimondPricePrediction.logger import logging
 from src.DimondPricePrediction.exception import customexception
 from dataclasses import dataclass
-from src.DimondPricePrediction.utils import save_object
-from src.DimondPricePrediction.utils import evaluate_model
+from src.DimondPricePrediction.utils.utils import save_object
+from src.DimondPricePrediction.utils.utils import evaluate_model
 
 from sklearn.linear_model import LinearRegression, Ridge,Lasso,ElasticNet
 
@@ -21,7 +21,7 @@ class ModelTrainer:
     def __init__(self):
         self.model_trainer_config = ModelTrainerConfig()
     
-    def initate_model_training(self,train_array,test_array):
+    def initiate_model_training(self,train_array,test_array):
         try:
             logging.info('Splitting Dependent and Independent variables from train and test data')
             X_train, y_train, X_test, y_test = (
@@ -36,7 +36,7 @@ class ModelTrainer:
             'Lasso':Lasso(),
             'Ridge':Ridge(),
             'Elasticnet':ElasticNet()
-        }
+            }
             
             model_report:dict=evaluate_model(X_train,y_train,X_test,y_test,models)
             print(model_report)
