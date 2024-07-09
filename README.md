@@ -19,7 +19,6 @@ DiamondPricePrediction-Docker-ML is a machine learning project aimed at predicti
 - Flask
 
 ## Project Structure
-```plaintext
 .
 ├── app.py                  # Main application file
 ├── Dockerfile              # Docker configuration
@@ -29,7 +28,6 @@ DiamondPricePrediction-Docker-ML is a machine learning project aimed at predicti
 │   ├── cubic_zirconia.csv  # Dataset file
 ├── components              # Dir for saved data_ingestion, transformation and model trainer
 └── README.md               # Project documentation
-
 
 # Usage
 1. Run the Application:
