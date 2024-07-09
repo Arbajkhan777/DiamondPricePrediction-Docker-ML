@@ -19,6 +19,7 @@ DiamondPricePrediction-Docker-ML is a machine learning project aimed at predicti
 - Flask
 
 ## Project Structure
+```plaintext
 .
 ├── app.py                  # Main application file
 ├── Dockerfile              # Docker configuration
@@ -29,7 +30,8 @@ DiamondPricePrediction-Docker-ML is a machine learning project aimed at predicti
 ├── components              # Dir for saved data_ingestion, transformation and model trainer
 └── README.md               # Project documentation
 
-# Usage
+```
+## Usage
 1. Run the Application:
 
 After starting the Docker container, the application will be accessible at http://localhost:5000.
@@ -38,12 +40,29 @@ After starting the Docker container, the application will be accessible at http:
 
 Use the API endpoint /predict to get diamond price predictions by providing the necessary input features.
 
-# Contributing
+## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request.
 
-# License
+## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-# Acknowledgments
+## Acknowledgments
 Dataset: Kaggle Diamonds Dataset
 Inspiration: Inspired by various machine learning and data science projects in the community.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
