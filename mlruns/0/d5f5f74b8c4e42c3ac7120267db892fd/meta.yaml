@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Ineuron_Classes/Projects/DiamondPricePrediction/mlruns/0/d5f5f74b8c4e42c3ac7120267db892fd/artifacts
+end_time: 1720855850429
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d5f5f74b8c4e42c3ac7120267db892fd
+run_name: wise-ant-674
+run_uuid: d5f5f74b8c4e42c3ac7120267db892fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720855848176
+status: 3
+tags: []
+user_id: Arbaj

@@ -31,7 +31,7 @@ class ModelEvaluation:
 
         
 
-            #mlflow.set_registry_uri("https://dagshub.com/sunny.savita/fsdsmendtoend.mlflow")
+            mlflow.set_registry_uri("https://dagshub.com/arbajkhan2117/DiamondPricePrediction-Docker-ML.mlflow")
             
             tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
             
@@ -49,7 +49,7 @@ class ModelEvaluation:
                 mlflow.log_metric("r2", r2)
                 mlflow.log_metric("mae", mae)
 
-
+                # This is for DagsHub
                 # Model registry does not work with file store
                 if tracking_url_type_store != "file":
 
@@ -58,6 +58,7 @@ class ModelEvaluation:
                     # please refer to the doc for more information:
                     # https://mlflow.org/docs/latest/model-registry.html#api-workflow
                     mlflow.sklearn.log_model(model, "model", registered_model_name="ml_model")
+                # This is for local (log)
                 else:
                     mlflow.sklearn.log_model(model, "model")
 
