@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Ineuron_Classes/Projects/DiamondPricePrediction/mlruns/0/b9755eba23e34bd3972abf1bd0b4b744/artifacts
+end_time: 1721114802529
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b9755eba23e34bd3972abf1bd0b4b744
+run_name: caring-toad-741
+run_uuid: b9755eba23e34bd3972abf1bd0b4b744
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721114800447
+status: 3
+tags: []
+user_id: Arbaj
