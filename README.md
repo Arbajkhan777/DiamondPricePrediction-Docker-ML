@@ -1,16 +1,16 @@
 # DiamondPricePrediction-Docker-ML
 
-## Project Overview
+## 🔥Project Overview
 DiamondPricePrediction-Docker-ML is a machine learning project aimed at predicting the prices of diamonds based on various features such as carat, cut, color, clarity, and more. This project uses Docker for containerization.
 
-## Features
+## 📄Features
 - **Machine Learning Model**: Predicts diamond prices using advanced regression techniques.
 - **Docker**: Ensures consistent and reproducible environments.
 - **MLflow**: Tracks experiments, logs parameters and metrics, and manages models.
 
-## Technologies Used
+## 🛠️Technologies Used
 - Python
-- Seaborn
+- Seaborn  
 - Scikit-learn
 - Pandas
 - Numpy
